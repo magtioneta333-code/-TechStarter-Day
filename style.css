@@ -1,0 +1,21 @@
+* { box-sizing: border-box; } 
+ 
+html { scroll-behavior: smooth; } 
+ 
+body { 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+  color: #1f2937; 
+  line-height: 1.6; 
+} 
+ 
+header, main, footer { 
+  width: min(900px, 92%); 
+  margin: 0 auto; 
+} 
+ 
+header { padding: 40px 0 24px; } 
+nav { display: flex; gap: 16px; flex-wrap: wrap; } 
+section { padding: 28px 0; border-top: 1px solid #d1d5db; } 
+img { max-width: 100%; height: auto; } 
+footer { padding: 28px 0 48px; } 
